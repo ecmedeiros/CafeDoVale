@@ -1,72 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Do Valé</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-
-<header>
-    <h1>Cafeteria Vale do Sinos</h1>
-</header>
-
-<body>
-    <main>
+  <div class="container-grid">
+    <header><h1>Cafeteria Vale do Sinos</h1></header>
+    <body>
+      <main>
         <div class="custom-select">
-            <select name="select" id="cidades" onchange="refreshSelect()">
-                <option value="select" selected>Selecione a cidade</option>
-                <option value="campo-bom">Campo Bom</option>
-                <option value="novo-hamburgo">Novo Hamburgo</option>
-            </select>
+          <select name="select" class="select" onchange="refreshSelect()">
+            <option value="select" selected>Selecione a cidade</option>
+            <option value="campo-bom">Campo Bom</option>
+            <option value="novo-hamburgo">Novo Hamburgo</option>
+          </select>
+          <span class="custom-arrow"></span>
         </div>
+
+        <!-- CONTAINER -->
 
         <div class="container">
-            <div class="box-cafe">
-                <h2 class="nome-cafe" id="quiero-cafe">Quiero Café</h2>
+          <div class="box-cafe">
+            <h2 class="nome-cafe"></h2>
 
-                <div class="links">
-                    <a href="#" class="site" target="_blank">Site</a>
-                    <a href="#">Instagram</a>
-                </div>
+            <div class="links">
+              <a href="#" class="site" target="_blank">Site</a><br />
+              <a href="#" class="instagram" target="_blank">Instagram</a>
             </div>
+          </div>
 
-            <div class="box-cafe">
-                <h2 class="nome-cafe" id='me-gusta'>Me Gusta Cafeteria</h2>
+          <div class="box-cafe">
+            <h2 class="nome-cafe"></h2>
 
-                <div class="links">
-                    <a href="#" class="site" target="_blank">Site</a>
-                    <a href="#">Instagram</a>
-                </div>
+            <div class="links">
+              <a href="#" class="site" target="_blank">Site</a><br />
+              <a href="#" class="instagram" target="_blank">Instagram</a>
             </div>
+          </div>
 
-            <div class="box-cafe">
-                <h2 class="nome-cafe" id="dcakes">D'cakes Boleria E Café</h2>
+          <div class="box-cafe">
+            <h2 class="nome-cafe"></h2>
 
-                <div class="links">
-                    <a href="#" class="site" target="_blank">Site</a>
-                    <a href="#">Instagram</a>
-                </div>
-
+            <div class="links">
+              <a href="#" class="site" target="_blank">Site</a><br />
+              <a href="#" class="instagram" target="_blank">Instagram</a>
             </div>
+          </div>
         </div>
+      </main>
 
-    </main>
-
-    <script src="js/main.js"></script>
-</body>
-
-
-<footer>
-
-    <p> Github: <a href="https://github.com/ecmedeiros">@ecmedeiros</a>
-        / Linkedin: <a href="https://www.linkedin.com/in/elias-medeiros-3446b019b/">Elias Medeiros</a>
+      <script src="js/main.js"></script>
+    </body>
+  </div>
+  <footer>
+    <p>
+      Github:
+      <a href="https://github.com/ecmedeiros" target="_blank">@ecmedeiros</a> /
+      Linkedin:
+      <a
+        href="https://www.linkedin.com/in/elias-medeiros-3446b019b/"
+        target="_blank"
+        >Elias Medeiros</a
+      >
     </p>
-
-</footer>
-
-
+  </footer>
 </html>
