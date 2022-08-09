@@ -21,8 +21,11 @@ header {
 }
 
 aside {
+    background-image: url(../images/coffe.png);
     background-color: #503013;
+    background-repeat: space;
     height: 660px;
+    
 }
 
 body {
@@ -91,7 +94,6 @@ select {
     grid-template-columns: 300px 300px;
     max-width: 400px;
     margin: 40px auto;
-    border: 1px solid #ccc;
     font-size: 20px;
     padding-left: 15px;
 }
