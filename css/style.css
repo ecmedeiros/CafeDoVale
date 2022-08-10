@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Lucida Sans Regular';
     font-weight: 100;
 
@@ -24,8 +24,6 @@ aside {
     background-image: url(../images/coffe.png);
     background-color: #503013;
     background-repeat: space;
-    height: 660px;
-    
 }
 
 body {
@@ -49,7 +47,7 @@ body {
 .custom-arrow {
     position: absolute;
     top: 37%;
-    right: 27%;
+    right: 26%;
     display: block;
     background: #503013;
     height: 20%;
@@ -93,6 +91,7 @@ select {
     align-items: center;
     grid-template-columns: 300px 300px;
     max-width: 400px;
+    height: 4rem;
     margin: 40px auto;
     font-size: 20px;
     padding-left: 15px;
