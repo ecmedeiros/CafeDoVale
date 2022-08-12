@@ -4,13 +4,11 @@
     /* box-sizing: border-box; */
     font-family: 'Lucida Sans Regular';
     font-weight: 100;
-
 }
 
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-
 }
 
 header {

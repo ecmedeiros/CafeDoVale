@@ -1,8 +1,26 @@
-@media screen and (min-height:800px) {
+@media screen and (min-height:600px) {
     .box-cafe {
         height: 8rem;
     }
 }
 
+
+@media screen and (min-height:900px) {
+    .box-cafe {
+        height: 10.2rem;
+    }
+}
+
+@media screen and (min-height:1000px) {
+    .box-cafe {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container-grid {
+        grid-template-columns: 0fr 3fr 0fr;    
+    }
+}
 
 
