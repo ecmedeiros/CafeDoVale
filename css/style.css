@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
     font-family: 'Lucida Sans Regular';
     font-weight: 100;
 }
@@ -25,7 +24,6 @@ aside {
 }
 
 body {
-    place-items: center;
     background-color: #FFD2A8;
 }
 
@@ -42,35 +40,11 @@ body {
     background-color: #FFD2A8;
 }
 
-.custom-arrow {
-    position: absolute;
-    top: 37%;
-    right: 26%;
-    display: block;
-    background: #503013;
-    height: 20%;
-    width: 2em;
-    pointer-events: none;
-}
-
-.custom-arrow::after {
-    --size: 1em;
-
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 30%;
-    top: 40%;
-}
-
-.custom-arrow::after {
-    border-left: var(--size) solid transparent;
-    border-right: var(--size) solid transparent;
-    border-top: var(--size) solid white;
-}
-
 select {
+    background-image: url(../images/arrow_white.png);
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-size: 70px;
     appearance: none;
     width: 400px;
     height: 60px;
@@ -81,6 +55,7 @@ select {
     background-color: #503013;
     color: white;
     padding-left: 10px;
+    cursor:pointer;
 }
 
 .box-cafe {
@@ -93,9 +68,7 @@ select {
     margin: 40px auto;
     font-size: 20px;
     padding-left: 15px;
-    /* visibility: hidden; */
 }
-
 
 .container {
     display: grid;
@@ -112,7 +85,7 @@ a {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
