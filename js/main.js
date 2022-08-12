@@ -6,6 +6,8 @@ function refreshSelect() {
   const cafe = document.querySelectorAll(".nome-cafe");
   const site = document.querySelectorAll(".site");
   const instagram = document.querySelectorAll(".instagram");
+  const links = document.querySelectorAll(".links");
+  const caixaCafe = document.querySelectorAll('.box-cafe')
 
   const nomescafe = [
     "Quiero Café",
@@ -22,7 +24,7 @@ function refreshSelect() {
     "https://linklist.bio/dcakesboleria",
     "https://linktr.ee/lafourmicreperie",
     "https://cafegraobrasil.com.br/index.html",
-    "http://www.artesanachocolates.com.br/"
+    "http://www.artesanachocolates.com.br/",
   ];
 
   const instaLink = [
@@ -31,16 +33,27 @@ function refreshSelect() {
     "https://www.instagram.com/dcakesboleriaecafe/",
     "https://www.instagram.com/lafourmicreperie/",
     "https://www.instagram.com/graobrasilcafe/",
-    "https://www.instagram.com/artesana.cafeteria/"
+    "https://www.instagram.com/artesana.cafeteria/",
   ];
 
-  //for (var i = 0; i < cafe.length; i++) {
+
+  if (value === "select") {
+  
+    for (var i = 0; i < caixaCafe.length; i++) {
+      caixaCafe[i].style.visibility = "hidden";
+    }
+  }else if(value == 'campo-bom' || 'novo-hamburgo'){
+    for (var i = 0; i < caixaCafe.length; i++) {
+      caixaCafe[i].style.visibility = "visible";
+    }
+  }
+
   if (value === "campo-bom") {
     for (var i = 0; i < cafe.length; i++) {
       site[i].innerHTML = "Site";
       instagram[i].innerHTML = "Instagram";
     }
-
+    
     cafe[0].innerHTML = nomescafe[0];
     cafe[1].innerHTML = nomescafe[1];
     cafe[2].innerHTML = nomescafe[2];
@@ -52,12 +65,8 @@ function refreshSelect() {
     instagram[0].href = instaLink[0];
     instagram[1].href = instaLink[1];
     instagram[2].href = instaLink[2];
-  } else if (value === "novo-hamburgo") {
-    for (var i = 0; i < cafe.length; i++) {
-      site[i].innerHTML = "Site";
-      instagram[i].innerHTML = "Instagram";
-    }
 
+  } else if (value === "novo-hamburgo") {
     cafe[0].innerHTML = nomescafe[3];
     cafe[1].innerHTML = nomescafe[4];
     cafe[2].innerHTML = nomescafe[5];
@@ -69,22 +78,8 @@ function refreshSelect() {
     instagram[0].href = instaLink[3];
     instagram[1].href = instaLink[4];
     instagram[2].href = instaLink[5];
-  } else if (value === "select") {
-    for (var i = 0; i < cafe.length; i++) {
-      cafe[i].innerHTML = "";
-      site[i].innerHTML = "";
-      instagram[i].innerHTML = "";
-    }
   }
 }
-//}
 
-function zeraDiv() {
-  for (var i = 0; i < cafe.length; i++) {
-    cafe[i].innerHTML = "";
-    site[i].innerHTML = "";
-    instagram[i].innerHTML = "";
-  }
-}
 
 refreshSelect();

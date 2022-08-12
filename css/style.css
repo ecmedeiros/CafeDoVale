@@ -93,6 +93,7 @@ select {
     margin: 40px auto;
     font-size: 20px;
     padding-left: 15px;
+    /* visibility: hidden; */
 }
 
 
