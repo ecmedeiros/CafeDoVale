@@ -6,18 +6,32 @@
     }
 }
 
-.container-grid {
-    grid-template-columns: 1fr 3fr 1fr;
-}
+/* Responsividade Celular */
+
 
 @media screen and (max-width: 980px){
+
+    *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     .container-grid {
-        display: block;
+        display: grid;
+        grid-template-columns: 0fr auto 0fr;
     }
 
     .box-cafe {
-        display: block;
-        height: 27rem;
+        display: grid;
+        height: 20rem;
+        font-size: 25px;
+        margin: 10px auto;
+    }
+
+    .nome-cafe {
+    font-size: 35px;
+    }
+    
+    select {
+        font-size: 35px;
     }
 
     .custom-arrow {
