@@ -1,26 +1,30 @@
-@media screen and (min-height:600px) {
-    .box-cafe {
-        height: 8rem;
-    }
-}
 
-
+/* Responsividade para monitor */
 @media screen and (min-height:900px) {
     .box-cafe {
         height: 10.2rem;
     }
 }
 
-@media screen and (min-height:1000px) {
-    .box-cafe {
-        height: 15rem;
-    }
+.container-grid {
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 980px){
     .container-grid {
-        grid-template-columns: 0fr 3fr 0fr;    
+        display: block;
     }
+
+    .box-cafe {
+        display: block;
+        height: 27rem;
+    }
+
+    .custom-arrow {
+        right: 30%;
+    }
+    
 }
+
 
 
