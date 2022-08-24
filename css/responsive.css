@@ -9,7 +9,7 @@
 /* Responsividade Celular */
 
 
-@media screen and (max-width: 980px){
+@media (max-width: 980px){
 
     *{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

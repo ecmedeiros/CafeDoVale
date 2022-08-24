@@ -43,7 +43,7 @@ body {
 select {
     background-image: url(../images/arrow_white.png);
     background-repeat: no-repeat;
-    background-position:right center;
+    background-position:right;
     background-size: 70px;
     appearance: none;
     width: 400px;
