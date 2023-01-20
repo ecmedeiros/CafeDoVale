@@ -5,7 +5,9 @@
   </a>
 
   <h3 align="center">Café do Vale</h3>
-
+  <p align="center">
+  Acessar o projeto:
+  <a href="https://ecmedeiros.github.io/CafeDoVale/"></a>
   <p align="center">
     Projeto pessoal que busca encontrar cafeterias no Vale dos Sinos com o objetivo de desenvolver minhas habilidades em JavaScript HTML5 e CSS3.
     <br/>
