@@ -13,9 +13,13 @@
   </p>
 </p>
 
-
-
 ## Sobre o projeto
-![GIF](images/project.gif)
+<p align="center">
+  <a href="https://github.com/ecmedeiros/CafeDoVale">
+    ![GIF](images/project.gif)
+  </a>
+
+
+
 
 
