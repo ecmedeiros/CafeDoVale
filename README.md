@@ -15,7 +15,7 @@
 
 ## Sobre o projeto
 <div align="center">
-    ![GIF](images/project.gif)
+    <img src="project.gif"  width="250" />
 </div>
 
 
