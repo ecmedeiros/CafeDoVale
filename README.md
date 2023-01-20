@@ -16,6 +16,6 @@
 
 
 ## Sobre o projeto
-![GIF](images/demo.gif)
+![GIF](images/project.gif)
 
 
