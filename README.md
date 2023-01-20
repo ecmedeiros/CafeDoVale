@@ -15,7 +15,7 @@
 
 ## Sobre o projeto
 <div align="center">
-    <img src="project.gif"  width="250" />
+    <img src="images/project.gif"  width="250" />
 </div>
 
 
