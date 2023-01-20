@@ -16,8 +16,6 @@
 
 
 ## Sobre o projeto
-
-![Screen Shot](images/screenshot.png)
 ![GIF](images/demo.gif)
 
 
